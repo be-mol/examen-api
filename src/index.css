@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  max-width: fit-content;
+
+}
+
+.header {
+  background-image: url("http://images.withthewill.net/digimon_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 320px;
+}
+
+.header h1 {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 16px;
+  width: 100%;
+  text-align: justify;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0E2C40;
+}
+
+.description div {
+  width: 48%;
+}
+
+.description img {
+  width: 230px;
+  margin-left:140px;
+}
+
+.api-section {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-color: #1a4a5a;
+  padding-bottom: 50px;
+  padding-top:50px;
+}
+
+.digi-container table {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.digimon-img img {
+  width: 70px;
+  height: 70px;
+}
+
+.digi-container input {
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;;
+}
+
+.footer {
+  background-color: #148D8D;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  line-height: 100px;
+}
+
+.footer img {
+  width:5%;
+}
