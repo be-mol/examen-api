@@ -27,6 +27,7 @@ const MiApi = () => {
         results = info.filter((elemento) =>
         elemento.name.toLowerCase().includes(search.toLocaleLowerCase()) )
     }
+    
     //Funcion de sort
     const [order, setOrder] = useState('ASC');
     const sorting = (col) => {
